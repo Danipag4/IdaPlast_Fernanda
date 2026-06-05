@@ -97,7 +97,7 @@ if st.session_state.printing:
         'toImageButtonOptions': {
             'format': 'png',
             'filename': f'competencias_{Nome.replace(" ", "_")}',
-            'height': 600,
+            'height': 500,
             'width': 1000,
             'scale': 2
         }
@@ -150,7 +150,7 @@ if st.session_state.printing:
             'toImageButtonOptions': {
                 'format': 'png',
                 'filename': f'evolucao_{Nome.replace(" ", "_")}',
-                'height': 600,
+                'height': 500,
                 'width': 1000,
                 'scale': 2
             }
